@@ -1,0 +1,58 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+header{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0px;
+    color: white;
+    flex-wrap: wrap; 
+} 
+nav ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin: 0px 1rem;
+}
+.hero{
+    height: 60vh;
+    background-color: cadetblue;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 25px;
+    }
+    .padre{
+        display: flex;
+        align-items: center;
+        padding: 25px;
+        justify-content: center;
+    }
+    .padre article{
+        margin: 1rem;
+        padding: 1rem;
+    }
+footer{
+    background-color: deeppink;
+    padding: 25px;
+    color: white;
+  }
+  .contenedor{
+      position: relative;
+  }
+  .contenedor h4{
+      position: absolute;
+      top:40px;
+      color: deeppink;
+      left:40px;
+      padding:40px;
+  }
+  .footer{
+    background-color: cadetblue;
+  }
